@@ -12,6 +12,7 @@ public class Test1 {
     @Test(dataProvider = "data-provider")
     public void testPrintMessage(String value) {
         System.out.println("Inside testPrintMessage()"+" "+value);
+        System.out.println("Test git");
 	Assert.assertEquals(message, messageUtil.printMessage());
     }
     
